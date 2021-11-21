@@ -69,11 +69,24 @@ ul {
 }
 
 .content {
+  display: flex;
   padding-left: 195px;
   padding-right: 195px;
   padding-top: 120px;
   padding-bottom: 120px;
+  flex-flow: column wrap;
+  gap: 10px;
 }
+
+.con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  gap: 0px;
+  padding-right: 195px;
+}
+
 .awesome {
   color: #F9FAF8;
   font-size: 48px;
