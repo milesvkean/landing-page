@@ -37,6 +37,10 @@ a {
   background-color: #1F2937;
 }
 
+.content a {
+  background-color: #3882F6;
+}
+
 ul {
   list-style-type: none;
     display: flex;
