@@ -23,7 +23,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #3882F6;
-  color: white;
+  color: #F9FAF8;
   font-weight: bold;
   font-size: 18px;
   padding: 8px 24px;
@@ -166,8 +166,75 @@ ul {
   padding-right: 300px;
 }
 
+
+
+
+.modal {
+  background: #3882F6;
+  width: 800px;
+  border-radius: 10px;
+  display: flex;
+  padding: 50px;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.icon {
+  color: royalblue;
+  font-size: 26px;
+  font-weight: 700;
+  background: lavender;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+
+
+
+
 .bottom {
-  background-color: white
+  background-color: white;
+  padding: 100px;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.p2 {
+  color: #E5E7EB;
+  font-size: 16px;
+}
+
+.bottom button {
+  background: #3882F6;
+  border: 2px solid #F9FAF8;
+  color: #F9FAF8;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.nonbutton {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.text {
+  margin-bottom: 16px;
 }
 
 /* do not edit this footer */
